@@ -146,12 +146,39 @@ header{
 }
 @media only screen and (max-width: 1024px) {
     .main-image{
+        margin: auto;
+        width: 200px;
+        height: 200px;
+    }
+    .main-container{
+        display: grid;
+        transition: .8s;
+    }
+    .main-text{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: 10px 20px 0px 20px;
+    }
+    .main-title{
+        font-size: 70px;
+    }
+    .input-field{
+        margin: auto;
+    }
+    .social-media{
+        padding-top: 12px;
+    }
+}
+/* Alternate mobile view */
+/* @media only screen and (max-width: 1024px) {
+    .main-image{
         display: none;
     }
     .main-container{
         background-image: url('./images/three.jpg');
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
         background-color: rgb(51, 51, 51);
         transition: .8s;
@@ -173,4 +200,4 @@ header{
     .social-media{
         padding-top: 12px;
     }
-}
+} */

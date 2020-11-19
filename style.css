@@ -36,7 +36,7 @@ header{
     font-size: 18px;
 }
 .login{
-    color: #08df69;
+    color: #1DB954;
     font-size: 20px;
     cursor: pointer;
 }
@@ -83,10 +83,15 @@ header{
   margin: 4px;
   outline: none;
   border: none;
-  background-color: #08df69;
+  background-color: #1DB954;
   color: #fff;
   transition: 0.5s;
   font-size: 1.1rem;
+}
+.input-field button:hover {
+    cursor: pointer;
+  background-color: #057e2f;
+  transition: 0.5s;
 }
 
 .input-field input {
@@ -141,8 +146,8 @@ header{
 }
 
 .social-icon:hover {
-  color: #08df69;
-  border-color: #08df69;
+  color: #1DB954;
+  border-color: #1DB954;
 }
 @media only screen and (max-width: 1024px) {
     .main-image{
